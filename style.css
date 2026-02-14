@@ -264,33 +264,3 @@ form select {
 .result-table th {
   background-color: #f0f4ff;
 }
-.hero{
-  height: 420px;
-  background: url("images/school.jpg") center/cover no-repeat;
-  position: relative;
-}
-
-.hero::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:rgba(0,0,0,.45);
-}
-
-.hero-box{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  color:white;
-  z-index:2;
-  background:transparent;
-}
-
-.hero-box h2{
-  font-size:42px;
-}
-
-.hero-box p{
-  font-size:20px;
-}
